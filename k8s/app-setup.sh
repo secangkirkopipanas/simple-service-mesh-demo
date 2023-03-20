@@ -2,9 +2,9 @@ echo "Setting up namespace"
 
 kubectl apply -f namespace.yaml
 
-echo "Applying the namespace to the service mesh member roll"
+# echo "Applying the namespace to the service mesh member roll"
 
-kubectl replace -f service-member-roll.yaml
+# kubectl replace -f service-member-roll.yaml
 
 echo "Setting up recommendations"
 
